@@ -26,13 +26,19 @@ jobs:
           node-version: 12
       
       - name: Setup node
-        run: npm i
+        run: |
+          cd mysite
+          npm i
 
       - name: Lint
-        run: npm run lint
+        run: |
+          cd mysite
+          npm run lint
       
       - name: build
-        run: npm run build
+        run: |
+          cd mysite
+          npm run build
 
       - name: Deploy site
         uses: mhausenblas/mkdocs-deploy-gh-pages@master
