@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: Vue_build
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
@@ -27,17 +27,17 @@ jobs:
       
       - name: Setup node
         run: |
-          cd mysite
+          cd my_site
           npm i
 
       - name: Lint
         run: |
-          cd mysite
+          cd my_site
           npm run lint
       
       - name: build
         run: |
-          cd mysite
+          cd my_site
           npm run build
 
       - name: Deploy site
