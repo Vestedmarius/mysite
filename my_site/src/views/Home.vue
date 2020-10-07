@@ -4,6 +4,7 @@
     <div class="pt-15 text-center">
       <h1>TheConsoleGardenMG</h1>
       <p>ie oe</p>
+      <p>aaaaaaa</p>
     </div>
   </div>
 </template>
