@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <vue-particles style="position:absolute; width:100vw; height: 100vh;" class="mx-n5" linesColor="#ff0000"  :linesWidth="2" color="#ff0000"></vue-particles>
-    <v-card color="rgba(255, 0, 0, 0.5)" class="mx-auto">
+    <v-card color="rgba(255, 0, 0, 0.0)" class="mx-auto" width="25%">
       <v-card-title>TheConsoleGardenMG</v-card-title>
     </v-card>
     <v-row>
