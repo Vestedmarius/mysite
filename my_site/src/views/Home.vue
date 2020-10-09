@@ -6,6 +6,13 @@
       <p>ie oe</p>
       <p>aaaaaaa</p>
     </div>
+    <v-row>
+      <v-col cols="4">
+        <v-card>
+          <v-card-title>aaa</v-card-title>
+        </v-card>
+      </v-col>
+    </v-row>
   </div>
 </template>
 
