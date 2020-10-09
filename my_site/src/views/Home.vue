@@ -1,11 +1,12 @@
 <template>
   <div class="home">
     <vue-particles style="position:absolute; width:100vw; height: 100vh;" class="mx-n5" linesColor="#ff0000"  :linesWidth="2" color="#ff0000"></vue-particles>
-    <v-card color="rgba(255, 0, 0, 0.0)" class="mx-auto py-15" width="25%" flat>
+    <v-card color="rgba(255, 0, 0, 0.0)" class="mx-auto py-15" width="40%" flat>
       <v-card-title>
         <h1>TheConsoleGardenMG</h1>
       </v-card-title>
     </v-card>
+    <h1 class="text-center">TheConsoleGardenMG</h1>
     <v-row>
       <v-col cols="4">
         <v-card>
