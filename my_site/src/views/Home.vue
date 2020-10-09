@@ -10,6 +10,7 @@
       <v-col cols="4">
         <v-card>
           <v-card-title>aaa</v-card-title>
+          <v-card-text>nu wel?</v-card-text>
         </v-card>
       </v-col>
     </v-row>
