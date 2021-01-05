@@ -6,10 +6,9 @@
           <h1>TheConsoleGardenMG</h1>
         </v-card-title>
       </v-card>
-      <h1 class="text-center">TheConsoleGardenMG</h1>
       <v-row>
         <v-col cols="4">
-          <v-card>
+          <v-card v-for="card in cards" :key="card.name">
             <v-card-title>aaa</v-card-title>
             <v-card-text>nu wel?</v-card-text>
           </v-card>
@@ -26,6 +25,12 @@ export default {
   name: 'Home',
   components: {
     
+  },
+  data: function() {
+    cards: [
+      {name: "who am I", text: "Im Marius 16 years old."},
+      {name: "school", text: "Im Marius 16 years old."},
+    ]
   }
 }
 </script>
