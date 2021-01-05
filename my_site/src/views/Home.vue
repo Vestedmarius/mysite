@@ -9,8 +9,8 @@
       <v-row>
         <v-col cols="4">
           <v-card v-for="card in cards" :key="card.name">
-            <v-card-title>aaa</v-card-title>
-            <v-card-text>nu wel?</v-card-text>
+            <v-card-title>{{card.name}}</v-card-title>
+            <v-card-text>{{card.text}}</v-card-text>
           </v-card>
         </v-col>
       </v-row>
