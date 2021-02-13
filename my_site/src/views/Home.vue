@@ -107,7 +107,7 @@ export default {
                 {
                     name: "School: Zuiderzee collge",
                     text: "I currently study media design and ICT here",
-                    date: "4/07/2029 - now",
+                    date: "4/07/2019 - now",
                 },
                 {
                     name: "Internship at Antoni van Leeuwenhoek hospital",
@@ -123,7 +123,6 @@ export default {
             let index = Math.floor(
                 Math.random() * Math.floor(this.quots.length)
             );
-            console.log(index);
             return this.quots[index];
         },
     },
