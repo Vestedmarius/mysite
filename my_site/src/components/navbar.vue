@@ -4,7 +4,7 @@
             <v-app-bar-nav-icon v-on:click="drawer = !drawer" />
             <v-toolbar-title>TheConsoleGardenMG</v-toolbar-title>
             <v-spacer />
-            <div v-if="darkmode">
+            <!-- <div v-if="darkmode">
                 <v-btn text v-on:click="ToggleDarkMode">
                     <v-icon left>wb_sunny</v-icon>
                     <span>Light Mode</span>
@@ -15,7 +15,7 @@
                     <v-icon left>brightness_3</v-icon>
                     <span>Dark Mode</span>
                 </v-btn>
-            </div>
+            </div> -->
         </v-app-bar>
 
         <v-navigation-drawer temporary app v-model="drawer">

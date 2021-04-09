@@ -31,8 +31,7 @@
                             two years, mainly programmed game scripts, and
                             currently getting into web development.
                         </p>
-                        <v-btn color="red darken-2" @click="ToProjects"
-                            >Projects</v-btn
+                        <v-btn color="primary" @click="ToProjects"> Projects</v-btn
                         >
                     </v-card-text>
                 </v-card>
