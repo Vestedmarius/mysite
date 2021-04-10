@@ -8,6 +8,7 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "caniuse-lite": "^1.0.30001208",
     "core-js": "^3.6.5",
     "vue": "^2.6.11",
     "vue-particles": "^1.0.9",
